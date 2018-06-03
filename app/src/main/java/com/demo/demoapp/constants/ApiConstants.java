@@ -3,7 +3,7 @@ package com.demo.demoapp.constants;
 public class ApiConstants {
 
     //API Url
-    public static final String API_URL = "https://api.themoviedb.org/3/movie/top_rated?language=en-US&api_key=cbe4c82dfb494260ea5116c70eba5bf3&page=%s";
+    public static final String API_URL = "https://api.themoviedb.org/3/movie/now_playing?language=en-US&api_key=cbe4c82dfb494260ea5116c70eba5bf3&page=%s";
 
     //Date Format
     public static final String KEY_RELEASE_DATE_FORMAT = "yyyy-mm-dd";

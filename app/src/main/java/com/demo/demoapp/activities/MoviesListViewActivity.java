@@ -37,7 +37,7 @@ public class MoviesListViewActivity extends AppCompatActivity implements SearchV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movies_list_view);
-        setTitle(getString(R.string.title_top_rated_movies));
+        setTitle(getString(R.string.title_latest_movies));
         container = findViewById(android.R.id.content);
         setupMoviesRecyclerView();
         fetchMovies(currentPage);
